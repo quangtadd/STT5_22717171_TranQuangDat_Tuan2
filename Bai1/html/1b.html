@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name ='22717171', content='Tran Quang Dat'> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example cafe menu</title>
+    <style> 
+        body{
+            margin: 0px;
+            padding: 0px;
+        }
+        section ul{
+            margin: 0px;
+        }
+        .nav_menu{
+            background-color: #ed9496;
+            border-bottom: 2px solid #ed9496;
+            overflow: hidden;
+        }
+        .ul_menu{
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            margin-left: 100px;
+        }
+        .ul_menu li{
+            display: inline;
+            border-right: 2px solid#cd758d;
+            margin-top: 6px;
+            margin-bottom: 6px;
+            margin-left: 20px;
+            margin-right: 6px;
+            text-align: center;
+        }
+        .ul_menu li:last-child{
+            border-right: none;
+        }
+        .ul_menu a{
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin-right: 10px;
+
+        }
+        .div_search{
+            display: flex;
+            align-items: center;
+            margin-right: 20px;
+            white-space: nowrap;
+        }
+        .div_search input[type="text"]{
+            padding: 5px;
+            font-size: 14px;
+            margin-right: 4px;
+        }
+        .div_search button{
+            padding: 5px 10px;
+            font-size: 14px;
+            background-color: #c77292;
+            color: white;
+            border: none;
+            cursor: pointer;
+
+        }
+        h2 {
+            margin: 0px;
+            background: antiquewhite;
+            color: rgb(179,0,0);
+        }
+        a{
+            color: red;
+            font-weight: bold;
+        }
+        header{
+            color: rgba(160,40, 60, 255);
+            width: 100%;
+            height: 50px;
+            font-size: 25px;
+            font-style: italic;
+            font-weight: bold;
+            text-align: center;
+            text-shadow: 8px 5px 5px rgb(189,99,99);
+            line-height: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>EXAMPLE CAFE MENU</header>
+    <nav class = "nav_menu">
+        <ul class= "ul_menu">
+            <li><a href><img style="width: 20px;" src="../img/icons8-home-50.png" alt="HOME"></a></li>
+            <li><a href="Starter">Starter</a></li>
+            <li><a href="MainCourse">Main Course</a></li>
+            <li><a href="Dessert">Dessert</a></li>
+            <li><div class="div_search">
+                <input type="text">
+                <input type="button", value="Go">
+            </div></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Starter</h2>
+        <nav>
+            <ul>   
+                <li>Chesnut and Mushroom Goujons <a href="v">(v)</a></li>
+                <li>Goat Cheese <a href="v">(v)</a></li>
+                <li>Honey soy chicken kebabs <a href="V">(V)</a></li>
+                <li>Seafood Salad <a href="v">(v)</a></li>
+            </ul>
+            <a href="Back To Top">Back To Top</a>
+        </nav>
+    </section>
+    <section>
+        <h2>Dessert</h2>
+        <nav>
+            <ul>
+                <li>Lemon Sorbet <a href="v">(v)</a></li>
+                <li>Chocolate Mud Pie <a href="v">(v)</a></li>
+                <li>Pecan Pie <a href="v">(v)</a></li>
+                <li>Selection of fine Cheeses from Around the World <a href="v">(v)</a></li>
+            </ul>
+            <a href="Back To Top">Back To Top</a>
+        </nav>
+    </section>
+</body>
+</html>
